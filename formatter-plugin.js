@@ -29,7 +29,6 @@
             'MF': months[date.getMonth()]?.substr(0, 3),
         }
         let  formatString = Object.values(formatData).join(' ');
-        console.log(date, formatString, 2)
         formatString = formatString.replace(/YYYY|MM|DD|hh|mm|ss|MF/g, (match) => formatMap[match])
 
        return  document.getElementById('display').textContent = formatString;
