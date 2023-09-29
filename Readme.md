@@ -10,6 +10,12 @@ mm = minutes (E.g. 05)
 ss = hour (E.g. 59)
 
 
+/************ some basic format **********/
+
+date = YYYY-MM-DD (default)
+time = hh:mm:ss (default)
+date with month name = DD MF, YYYY 
+
 
 
 /****************** Basic Usage *****************/
