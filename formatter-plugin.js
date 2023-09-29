@@ -21,7 +21,7 @@
 
         const formatMap = {
             'YYYY': pad(date.getFullYear()),
-            'MM': pad(date.getMonth()),
+            'MM': pad(date.getMonth() + 1),
             'DD': pad(date.getDate()),
             'hh': pad(date.getHours()),
             'mm': pad(date.getMinutes()),
