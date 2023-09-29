@@ -1,35 +1,35 @@
 /****************** Basic Info *****************/
 
-YYYY = year (E.g. 2023)
-MM = month (E.g. 05)
-DD = date (E.g. 29)
-MF = month name (E.g. Sep)
+YYYY = year (E.g. 2023) <br/>
+MM = month (E.g. 05) <br/>
+DD = date (E.g. 29) <br/>
+MF = month name (E.g. Sep) <br/>
 
-hh = hour (E.g. 10)
-mm = minutes (E.g. 05)
-ss = hour (E.g. 59)
+hh = hour (E.g. 10) <br/>
+mm = minutes (E.g. 05) <br/>
+ss = hour (E.g. 59) <br/>
 
 
-/************ some basic format **********/
+/************ Some Basic Format **********/
 
-date = YYYY-MM-DD (default)
-time = hh:mm:ss (default)
-date with month name = DD MF, YYYY 
+date = YYYY-MM-DD (default) <br/> 
+time = hh:mm:ss (default) <br/>
+date with month name = DD MF, YYYY <br/> 
 
 
 
 /****************** Basic Usage *****************/
 
-onFirst make an instance of class (DateTimeFormatter). Then call a method named format. This method takes two parameter
-as argument. First one is the element id, and the second one is an object (optional), where you can set your desire property to format the date and time.
+First make an instance of class (DateTimeFormatter). Then call a method named format. This method takes two parameter
+as argument. First one is the element id, and the second one is an object (optional), where you can set your desire property to format the date and time. <br/>
 
-Options object have three properties. Example:
+Options object have three properties. Example: <br/>
 
-const options = {
-    date: new Date(), // you can pass specified a date into Date() object (E.g. 2023-05-29)
-    dateFormat: 'YYYY-MM-DD', // you can modify this ascending or descending order
-    timeFormat: 'hh:mm:ss'
-}
+const options = { <br/>
+    date: new Date(), // you can pass specified a date into Date() object (E.g. 2023-05-29) <br/>
+    dateFormat: 'YYYY-MM-DD', // you can modify this ascending or descending order <br/>
+    timeFormat: 'hh:mm:ss' <br/>
+} <br/>
 
-const formatter = new DateTimeFormatter();
-formatter.format('#display', options);
+const formatter = new DateTimeFormatter(); <br/>
+formatter.format('#display', options); <br/>
